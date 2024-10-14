@@ -5,7 +5,7 @@
 Links to preview live site.
 
 - [Web4 Link]()
-- [Github Pages]()
+- [Github Pages](pjiceskull.github.io/albumStore/dist)
 
 ## About Project
 
