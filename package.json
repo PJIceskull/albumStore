@@ -1,0 +1,23 @@
+{
+  "name": "albumstore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server dist",
+    "compile:sass": "sass dist/scss/styles.scss dist/css/styles.css -w",
+    "build-wepback": "webpack",
+    "delopy": "firebase deploy --except functions"
+  },
+  "keywords": [],
+  "author": "Pierce Issah",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.79.5",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "firebase": "^10.14.1"
+  }
+}
